@@ -11,21 +11,21 @@ The goal of this project is to develop an interactive web application for a jewe
 ## Prerequisites
 
 - Node.js and npm:
-    https://nodejs.org/en/download/package-manager/current
+    - https://nodejs.org/en/download/package-manager/current
 
 - MongoDB:
-    https://www.mongodb.com/docs/manual/administration/install-community/
-    https://www.mongodb.com/try/download/atlascli
+    - https://www.mongodb.com/docs/manual/administration/install-community/
+    - https://www.mongodb.com/try/download/atlascli
 
 - Git:
-    https://www.atlassian.com/git/tutorials/install-git
+    - https://www.atlassian.com/git/tutorials/install-git
 
 - Postman:
-    https://www.postman.com/downloads/
+    - https://www.postman.com/downloads/
 
 - Multer & bcrypt:
-    https://www.npmjs.com/package/multer
-    https://www.npmjs.com/package/bcrypt
+    - https://www.npmjs.com/package/multer
+    - https://www.npmjs.com/package/bcrypt
 
 ## Run Instructions
 
