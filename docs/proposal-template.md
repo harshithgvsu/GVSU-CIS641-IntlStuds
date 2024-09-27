@@ -16,12 +16,12 @@ This project aims not only to provide a functional and secure platform for users
 
 To build this project, We will be using:
 
-Frontend: React.js, HTML, CSS
-Backend: Node.js with Express.js 
-Database: MongoDB 
-Authentication: JSON Web Tokens (JWT)
-File Uploads: Multer
-Version Control: Git
+- Frontend: React.js, HTML, CSS
+- Backend: Node.js with Express.js 
+- Database: MongoDB 
+- Authentication: JSON Web Tokens (JWT)
+- File Uploads: Multer
+- Version Control: Git
 
 # Method/Approach
 
@@ -35,17 +35,17 @@ Version Control: Git
 
 # Estimated Timeline
 
-Week 1-2: Gathering requirements, analyzing the feasibility, and building a test website by learning the technology. 
-Week 3: Setting up the dev environment, and implement basic authentication (register and login) using React, Node.js, and MongoDB.
-Week 4: Implement image upload functionality, store images in MongoDB, and ensure proper validation.
-Week 5: Build the dynamic image carousal and integrate the uploaded images with the frontend.
-Week 6: Perform testing, resolve bugs, and prepare for deployment.
-Week 7: Final adjustments, deployment, and project documentation.
-Week 8: Final week
+- Week 1-2: Gathering requirements, analyzing the feasibility, and building a test website by learning the technology. 
+- Week 3: Setting up the dev environment, and implement basic authentication (register and login) using React, Node.js, and MongoDB.
+- Week 4: Implement image upload functionality, store images in MongoDB, and ensure proper validation.
+- Week 5: Build the dynamic image carousal and integrate the uploaded images with the frontend.
+- Week 6: Perform testing, resolve bugs, and prepare for deployment.
+- Week 7: Final adjustments, deployment, and project documentation.
+- Week 8: Final week
 
 # Anticipated Problems
 
-User Management: Effeciently allowing owner access to admins and view access to the buyers. 
-Image Handling: Might be tough to handle large image files which may cause performance issues. Requires, images to be compressed or use other storage techniques before storage.
-Authentication & Security: Ensuring JWT tokens are securely handled and encrypting user data such as passwords.
-Database Storage: Storing images in MongoDB to avoid storage and retrieval delays.
+- User Management: Effeciently allowing owner access to admins and view access to the buyers. 
+- Image Handling: Might be tough to handle large image files which may cause performance issues. Requires, images to be compressed or use other storage techniques before storage.
+- Authentication & Security: Ensuring JWT tokens are securely handled and encrypting user data such as passwords.
+- Database Storage: Storing images in MongoDB to avoid storage and retrieval delays.
