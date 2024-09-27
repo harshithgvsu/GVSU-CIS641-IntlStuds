@@ -1,4 +1,4 @@
-# Team Name
+# Wizards
 
 Project description (~1 paragraph)
 
