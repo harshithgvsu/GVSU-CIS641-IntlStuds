@@ -1,6 +1,9 @@
-Team name: Intl Studs
+# Team name: Intl Studs
 
-Team members: Chandra Sekhar Singuru, Harshith Salunkay Pradeepkumar, Raghavendra Naidu Nayanuri
+# Team members: 
+- Chandra Sekhar Singuru
+- Harshith Salunkay Pradeepkumar
+- Raghavendra Naidu Nayanuri
 
 # Introduction
 
