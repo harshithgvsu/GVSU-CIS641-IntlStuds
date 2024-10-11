@@ -4,23 +4,24 @@ Hold a team meeting at least once a week in some format.  Copy the following tem
 
 ## Meeting minutes template
 
-Team name:
+Team name: IntlStuds
 
-Members present:
+Members present: Chandra Singuru, Raghavendra Naidu Nayanuri, Uday Surneni
 
-Date:
+Date: 10/08/2024
 
-Time:
+Time: 6:00 pm
 
 Discussion points: 
 
-*
-*
+* Designing of page 
+* Distrubtion of work
+* 
 *
 
 Goals for next week (include responsibilities)
 
-*
-*
+* Looking for specific tempaltes (Reference)
+* 
 *
 
