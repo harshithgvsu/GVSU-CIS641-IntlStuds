@@ -3,38 +3,38 @@ The purpose of this document is to define the functional and non-functional requ
 
 # Functional Requirements
 
-1. **User Authentication**
-   1. The system shall allow users to create an account by providing their email, password, and basic personal information.
-   2. The system shall allow users to log in using their email and password.
-   3. The system shall allow users to reset their password via email verification if forgotten.
+1. **User Authentication**  
+   1.1 The system shall allow users to create an account by providing their email, password, and basic personal information.  
+   1.2 The system shall allow users to log in using their email and password.  
+   1.3 The system shall allow users to reset their password via email verification if forgotten.
 
-2. **Job Postings**
-   1. The system shall allow employers to post job listings, including job title, description, salary, and location details.
-   2. Employers shall be able to edit or delete job postings they have created.
-   3. The system shall allow job postings to be flagged for inappropriate content by users.
+2. **Job Postings**  
+   2.1 The system shall allow employers to post job listings, including job title, description, salary, and location details.  
+   2.2 Employers shall be able to edit or delete job postings they have created.  
+   2.3 The system shall allow job postings to be flagged for inappropriate content by users.
 
-3. **Job Search**
-   1. The system shall allow users to search for jobs using filters such as job type, location, salary range, and industry.
-   2. The system shall display search results based on user input in a paginated format.
-   3. Users shall be able to save job searches and receive email notifications for matching new job listings.
+3. **Job Search**  
+   3.1 The system shall allow users to search for jobs using filters such as job type, location, salary range, and industry.  
+   3.2 The system shall display search results based on user input in a paginated format.  
+   3.3 Users shall be able to save job searches and receive email notifications for matching new job listings.
 
-4. **Swiping Feature for Job Listings**
-   1. The system shall allow users to swipe through job listings, displaying a brief job description on each card.
-   2. Users shall be able to swipe right to save a job to their favorites and swipe left to skip a job.
-   3. The swiping feature shall be available on both desktop and mobile platforms.
+4. **Swiping Feature for Job Listings**  
+   4.1 The system shall allow users to swipe through job listings, displaying a brief job description on each card.  
+   4.2 Users shall be able to swipe right to save a job to their favorites and swipe left to skip a job.  
+   4.3 The swiping feature shall be available on both desktop and mobile platforms.
 
 # Non-Functional Requirements
 
-1. **Security**
-   1. All user data shall be encrypted during transmission and at rest to protect personal information.
-   2. The system shall comply with GDPR regulations for data handling and privacy.
-   3. User sessions shall automatically expire after 15 minutes of inactivity to enhance security.
+1. **Security**  
+   1.1 All user data shall be encrypted during transmission and at rest to protect personal information.  
+   1.2 The system shall comply with GDPR regulations for data handling and privacy.  
+   1.3 User sessions shall automatically expire after 15 minutes of inactivity to enhance security.
 
-2. **Performance**
-   1. The system shall load job search results within 3 seconds under normal usage conditions.
-   2. The platform shall support up to 10,000 concurrent users without performance degradation.
-   3. Job postings shall be processed and uploaded within 5 seconds for standard content size.
+2. **Performance**  
+   2.1 The system shall load job search results within 3 seconds under normal usage conditions.  
+   2.2 The platform shall support up to 10,000 concurrent users without performance degradation.  
+   2.3 Job postings shall be processed and uploaded within 5 seconds for standard content size.
 
-3. **Availability**
-   1. The system shall maintain 99.9% uptime to ensure reliability for users.
-   2. Scheduled maintenance periods shall be communicated to users at least 24 hours in advance.
+3. **Availability**  
+   3.1 The system shall maintain 99.9% uptime to ensure reliability for users.  
+   3.2 Scheduled maintenance periods shall be communicated to users at least 24 hours in advance.
