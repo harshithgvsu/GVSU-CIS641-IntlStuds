@@ -1,3 +1,5 @@
 remote_theme: pages-themes/tactile@v0.2.0
 plugins:
 - jekyll-remote-theme
+title: Swipe and Wipe
+description: Start Swiping, leave worries behind, Wipe off the hard times, peace you’ll find!
