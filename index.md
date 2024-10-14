@@ -1,4 +1,4 @@
-# Job Board Web Application
+# Job Board Application
 
 The goal of this project is to create an interactive job board web application that offers users a smooth and engaging experience. The platform will allow users to swipe through job postings, generate custom resumes using GPT, and easily apply for jobs. It will include modern UI/UX components and secure user authentication using JWT.
 
