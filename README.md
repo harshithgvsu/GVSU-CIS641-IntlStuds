@@ -82,7 +82,7 @@ Follow these steps to set up the project locally:
    Create a `.env` file in the root of your project with the following details:
 
    ```   
-   PORT=5000
+   PORT=5002
    MONGO_URI=your-mongodb-uri
    JWT_SECRET=your-jwt-secret
    API_URL='https://jooble.org/api/'
