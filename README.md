@@ -57,19 +57,19 @@ Follow these steps to set up the project locally:
 1. **Clone the repository:**
 
   ```bash
-   git clone https://github.com/your-username/job-board-app.git
+   git clone https://github.com/harshithgvsu/CIS641-HW2-Salunkay_Pradeepkumar.git
    ```
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd job-board-app
+   cd CIS641-HW2-SalunkayPradeepkumar
    ```
 
 3. **Install all dependencies:**
 
    ```bash
-   npm install
+   rm-rf package-lock.json; npm i
    ```
 
 4. **Set up MongoDB connection:**
@@ -81,15 +81,19 @@ Follow these steps to set up the project locally:
 
    Create a `.env` file in the root of your project with the following details:
 
-   ```
+   ```   
    PORT=5000
    MONGO_URI=your-mongodb-uri
    JWT_SECRET=your-jwt-secret
-   GPT_API_KEY=your-gpt-api-key
+   API_URL='https://jooble.org/api/'
+   API_KEY=your-jooble-api-key
+   OPEN_API_KEY=your-gpt-api-key
+   LOCAL_URL='http://localhost:5002'
    ```
 
 6. **Run the development server:**
 
    ```bash
-   npm start
+   - npm run start
+   - node server.js
    ```
