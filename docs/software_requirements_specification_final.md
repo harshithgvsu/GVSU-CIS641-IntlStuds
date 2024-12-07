@@ -138,8 +138,6 @@ This section outlines how we will ensure that the application is compatible and 
 
 ---
 
-# Training, Integration, and Issue Resolution Plan
-
 ## **How will you train people to use it?**
 
 1. **Interactive Tutorials Within the Application**  
@@ -215,59 +213,73 @@ Our approach ensures that issues are addressed promptly, users are kept informed
 
 This section provides a traceability matrix for the use case diagrams, class diagrams, and activity diagrams in the system. For the use case diagrams, we outline each use case and clearly indicate which requirements it is linked to. Similarly, the class diagrams are connected to their respective requirements, ensuring a direct relationship between the system’s design and its functional expectations. Lastly, the activity diagrams are mapped by their name, the specific activities they represent, and the requirements they fulfill. This structured approach helps ensure every requirement is addressed within the design, creating a clear and logical connection between what the system needs to do and how it is designed to achieve it.
 
-### Use Case Diagram Traceability
-| Artifact ID | Artifact Name           | Requirement ID                              |
-|-------------|--------------------------|---------------------------------------------|
-| UC1         | Login/Logout                     | FR2, FR4, NFR3                              |
-| UC2         | Update Profile                   | FR26, FR27, FR28                            |
-| UC3         | Browse Jobs                      | FR11, FR12, FR14                            |
-| UC4         | Swipe for Jobs                   | FR16, FR17, FR18, FR20                      |
-| UC5         | Generate Resume                  | FR22, FR31, FR32, FR33, FR35                |
-| UC6         | Submit Application               | FR21, FR23, FR24, FR25                      |
-| UC7         | View Application Status          | FR25                                        |
-| UC8         | Reporting Job Postings           | FR10                                        |
-| UC9         | Integration with Third-Party APIs| NFR22
+
+## **Use Case Diagram Traceability**
+| Artifact ID | Artifact Name                    | Requirement ID                              |
+|-------------|-----------------------------------|---------------------------------------------|
+| UC1         | Login/Logout                     | FR1, FR2, FR4, NFR3                        |
+| UC2         | Update Profile                   | FR26, FR27, FR28                           |
+| UC3         | Browse Jobs                      | FR6, FR11, FR12                            |
+| UC4         | Swipe for Jobs                   | FR16, FR17, FR18, FR19                     |
+| UC5         | Generate Resume                  | FR22, FR31, FR32, FR33, FR35               |
+| UC6         | Submit Application               | FR21, FR23, FR24, FR25                     |
+| UC7         | View Application Status          | FR25                                       |
+| UC8         | Reporting Job Postings           | FR10                                       |
+| UC9         | Integration with Third-Party APIs| NFR22                                      |
+| TBD         | Job Posting Management           | FR7, FR8, FR9                              |
 
 ---
 
-### Class Diagram Traceability
-| Artifact Name        | Requirement ID                              |
-|-----------------------|---------------------------------------------|
-| User                 | FR1, FR2, FR4, FR26                        |
-| jobCards             | FR16, FR17, FR18                           |
-| swipeManager         | FR18, FR19                                 |
-| applyJob             | FR21, FR22, FR24                           |
-| resumeGeneration     | FR22, FR31, FR32, FR35                     |
-| updateProfile        | FR26, FR27, FR28, FR29                     |
-| multiFactorAuth      | NFR4                                       |
-| thirdPartyIntegration| NFR22                                      |
+## **Class Diagram Traceability**
+| Artifact ID   | Artifact Name        | Requirement ID                              |
+|---------------|-----------------------|---------------------------------------------|
+| CD1           | User                  | FR1, FR2, FR26                             |
+| CD1           | jobCards              | FR16, FR17, FR18                           |
+| CD1           | swipeManager          | FR18, FR19                                 |
+| CD1           | applyJob              | FR21, FR22, FR24                           |
+| CD1           | resumeGeneration      | FR22, FR31, FR32, FR35                     |
+| CD1           | updateProfile         | FR26, FR27, FR28, FR29                     |
+| CD1           | multiFactorAuth       | NFR4                                       |
+| CD1           | thirdPartyIntegration | NFR22                                      |
+| TBD           | System Monitoring     | NFR5                                      |
+| TBD           | Accessibility Features| NFR18                                     |
+| TBD           | UI Design Consistency | NFR20                                     |
+| TBD           | Database Architecture | NFR23                                     |
+| TBD           | Cloud Scalability     | NFR21, NFR25, NFR28                      |
 
 ---
 
-### Activity Diagram Traceability
+## **Activity Diagram Traceability**
 | Artifact ID   | Artifact Name               | Requirement ID                              |
 |---------------|------------------------------|---------------------------------------------|
 | AD1           | User Login Activity         | FR2, FR3, FR4, NFR3                        |
-| AD2           | Swipe Through Jobs          | FR16, FR17, FR18, FR20                     |
+| AD2           | Swipe Through Jobs          | FR16, FR17, FR18, FR19                     |
 | AD3           | Update Profile Activity     | FR26, FR27, FR28, FR29                     |
 | AD4           | Generate Resume with GPT    | FR22, FR31, FR32, FR35                     |
 | AD5           | Submit Job Application      | FR21, FR23, FR24, FR25                     |
-| AD6           | View Jobs Activity          | FR11, FR12, FR14, NFR6                     |
-| AD7           | Reporting Job Postings      | FR10                                        |
-| AD8           | Scheduled Maintenance       | NFR12                                       |
-| AD9           | Backup and Recovery Process | NFR14
+| AD6           | View Jobs Activity          | FR11, FR12                                 |
+| AD7           | Reporting Job Postings      | FR10                                       |
+| AD8           | Scheduled Maintenance       | NFR12, NFR15                               |
+| AD9           | Backup and Recovery Process | NFR14                                      |
+| TBD           | File Upload Process         | NFR10                                      |
+| TBD           | Job Sorting Process         | FR15                                       |
+| TBD           | Job Posting Automation      | FR8, FR9                                   |
+
 ---
 
-### Sequence Diagram Traceability
+## **Sequence Diagram Traceability**
 | Artifact ID   | Artifact Name               | Requirement ID                              |
 |---------------|------------------------------|---------------------------------------------|
 | SD1           | User Login Sequence         | FR2, FR4, NFR3                              |
-| SD2           | Swipe Feature Interaction   | FR16, FR17, FR18, FR20                     |
+| SD2           | Swipe Feature Interaction   | FR16, FR17, FR18, FR19                     |
 | SD3           | Profile Update Sequence     | FR26, FR27, FR28, FR29                     |
 | SD4           | Resume Generation Workflow  | FR22, FR31, FR32, FR35                     |
 | SD5           | Application Submission Sequence | FR21, FR23, FR24, FR25                    |
-| SD6           | Profile Export Workflow     | FR30                                        |
-| SD7           | Multi-Factor Authentication | NFR4
+| SD6           | Profile Export Workflow     | FR30                                       |
+| SD7           | Multi-Factor Authentication | NFR4                                       |
+| TBD           | Error Handling Process      | NFR17                                      |
+| TBD           | Failover Mechanism          | NFR13                                      |
+| TBD           | Admin Controls              | NFR29                                      |
 
 ---
 
