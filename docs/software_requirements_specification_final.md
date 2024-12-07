@@ -244,6 +244,20 @@ This section provides a traceability matrix for the use case diagrams, class dia
 
 ---
 
+### Class Diagram Traceability
+| Artifact Name        | Requirement ID                              |
+|-----------------------|---------------------------------------------|
+| User                 | FR1, FR2, FR4, FR26                        |
+| jobCards             | FR16, FR17, FR18                           |
+| swipeManager         | FR18, FR19                                 |
+| applyJob             | FR21, FR22, FR24                           |
+| resumeGeneration     | FR22, FR31, FR32, FR35                     |
+| updateProfile        | FR26, FR27, FR28, FR29                     |
+| multiFactorAuth      | NFR4                                       |
+| thirdPartyIntegration| NFR22                                      |
+
+---
+
 ### Activity Diagram Traceability
 | Artifact ID   | Artifact Name               | Requirement ID                              |
 |---------------|------------------------------|---------------------------------------------|
@@ -278,4 +292,5 @@ This section contains the links to all of the use case diagrams, class diagrams,
 - [Use Case Diagram](https://github.com/harshithgvsu/GVSU-CIS641-Swipe-and-Wipe/blob/main/docs/UseCaseDiagram.png)
 - [Class Diagram](https://github.com/harshithgvsu/GVSU-CIS641-Swipe-and-Wipe/blob/main/docs/Class%20Diagram.png)
 - [Activity Diagram](https://github.com/harshithgvsu/GVSU-CIS641-Swipe-and-Wipe/blob/main/docs/ActivityDiagram.png)
+- [Sequence Diagram](https://github.com/harshithgvsu/GVSU-CIS641-Swipe-and-Wipe/blob/main/docs/Sequence%20Diagram.pdf)
 
