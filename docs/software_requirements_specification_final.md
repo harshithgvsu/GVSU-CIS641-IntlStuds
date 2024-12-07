@@ -287,10 +287,14 @@ This section provides a traceability matrix for the use case diagrams, class dia
 
 # Software Artifacts
 
-This section contains the links to all of the use case diagrams, class diagrams, and activity diagrams. 
+This section contains the links to all of the use case diagrams, class diagrams, activity diagrams, and all other artifacts created. 
 
 - [Use Case Diagram](https://github.com/harshithgvsu/GVSU-CIS641-Swipe-and-Wipe/blob/main/docs/UseCaseDiagram.png)
 - [Class Diagram](https://github.com/harshithgvsu/GVSU-CIS641-Swipe-and-Wipe/blob/main/docs/Class%20Diagram.png)
 - [Activity Diagram](https://github.com/harshithgvsu/GVSU-CIS641-Swipe-and-Wipe/blob/main/docs/ActivityDiagram.png)
 - [Sequence Diagram](https://github.com/harshithgvsu/GVSU-CIS641-Swipe-and-Wipe/blob/main/docs/Sequence%20Diagram.pdf)
+- [CRC Card](https://github.com/harshithgvsu/GVSU-CIS641-Swipe-and-Wipe/blob/main/docs/CRC%2BDiagram.pdf)
+- [Object Diagram](https://github.com/harshithgvsu/GVSU-CIS641-Swipe-and-Wipe/blob/main/docs/Object%20Diagram.PNG)
+- [State Diagram](https://github.com/harshithgvsu/GVSU-CIS641-Swipe-and-Wipe/blob/main/docs/State%20Diagram.drawio.pdf)
+- [Window Nav Diagram](https://github.com/harshithgvsu/GVSU-CIS641-Swipe-and-Wipe/blob/main/docs/windows%20nav%20diagram.pdf)
 
