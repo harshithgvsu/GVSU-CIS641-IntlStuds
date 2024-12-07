@@ -232,14 +232,15 @@ This section provides a traceability matrix for the use case diagrams, class dia
 ### Use Case Diagram Traceability
 | Artifact ID | Artifact Name           | Requirement ID                              |
 |-------------|--------------------------|---------------------------------------------|
-| UC1         | Login/Logout            | FR2, FR4, NFR3                              |
-| UC2         | Update Profile          | FR26, FR27, FR28                            |
-| UC3         | Browse Jobs             | FR11, FR12, FR14                            |
-| UC4         | Swipe for Jobs          | FR16, FR17, FR18, FR20                      |
-| UC5         | Generate Resume         | FR22, FR31, FR33, FR34                      |
-| UC6         | Submit Application      | FR21, FR23, FR24, FR25                      |
-| UC7         | View Application Status | FR25                                        |
-| UC8         | Integration with Third-Party Services | TBD                                   |
+| UC1         | Login/Logout                     | FR2, FR4, NFR3                              |
+| UC2         | Update Profile                   | FR26, FR27, FR28                            |
+| UC3         | Browse Jobs                      | FR11, FR12, FR14                            |
+| UC4         | Swipe for Jobs                   | FR16, FR17, FR18, FR20                      |
+| UC5         | Generate Resume                  | FR22, FR31, FR32, FR33, FR35                |
+| UC6         | Submit Application               | FR21, FR23, FR24, FR25                      |
+| UC7         | View Application Status          | FR25                                        |
+| UC8         | Reporting Job Postings           | FR10                                        |
+| UC9         | Integration with Third-Party APIs| NFR22
 
 ---
 
@@ -248,11 +249,13 @@ This section provides a traceability matrix for the use case diagrams, class dia
 |---------------|------------------------------|---------------------------------------------|
 | AD1           | User Login Activity         | FR2, FR3, FR4, NFR3                        |
 | AD2           | Swipe Through Jobs          | FR16, FR17, FR18, FR20                     |
-| AD3           | Update Profile Activity     | FR26, FR27, FR28                            |
-| AD4           | Generate Resume with GPT    | FR22, FR31, FR33, NFR26                    |
+| AD3           | Update Profile Activity     | FR26, FR27, FR28, FR29                     |
+| AD4           | Generate Resume with GPT    | FR22, FR31, FR32, FR35                     |
 | AD5           | Submit Job Application      | FR21, FR23, FR24, FR25                     |
 | AD6           | View Jobs Activity          | FR11, FR12, FR14, NFR6                     |
-
+| AD7           | Reporting Job Postings      | FR10                                        |
+| AD8           | Scheduled Maintenance       | NFR12                                       |
+| AD9           | Backup and Recovery Process | NFR14
 ---
 
 ### Sequence Diagram Traceability
@@ -260,9 +263,11 @@ This section provides a traceability matrix for the use case diagrams, class dia
 |---------------|------------------------------|---------------------------------------------|
 | SD1           | User Login Sequence         | FR2, FR4, NFR3                              |
 | SD2           | Swipe Feature Interaction   | FR16, FR17, FR18, FR20                     |
-| SD3           | Profile Update Sequence     | FR26, FR27, FR28                            |
-| SD4           | Resume Generation Workflow  | FR22, FR31, FR33, FR34                      |
+| SD3           | Profile Update Sequence     | FR26, FR27, FR28, FR29                     |
+| SD4           | Resume Generation Workflow  | FR22, FR31, FR32, FR35                     |
 | SD5           | Application Submission Sequence | FR21, FR23, FR24, FR25                    |
+| SD6           | Profile Export Workflow     | FR30                                        |
+| SD7           | Multi-Factor Authentication | NFR4
 
 ---
 
